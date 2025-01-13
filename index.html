@@ -232,8 +232,6 @@
                     <tr onclick="showPlant('calendar')"><td>Календарь</td></tr>  
                     <tr><th>Лайфхаки и Советы для Садовода и огородника</th>>
                     <tr onclick="showPlant('lafak')"><td>Лайфхаки</td></tr>
-                    <tr><th>Прогноз погоды(Яндекс)</th>>
-                        <tr onclick="showPlant('pogoda')"><td>Погода</td></tr>
                         <tr><th>Виды МЁДА и его полезность</th>>
                             <tr onclick="showPlant('MED')"><td>МЁД</td></tr>
                             <tr onclick="showPlant('fak')"><td>ПРИОБРЕСТИ МЁД</td></tr>
@@ -777,17 +775,7 @@
                             
            
 
-                    } else if (plant === 'pogoda') {
-                image.src = "https://avatars.mds.yandex.net/i?id=8d7f7f4153c402e7ecc99119c1a9f59b_l-4010583-images-thumbs&n=13";
-                name.innerText = 'ПОГОДА';
-                description.innerText = '';
-                instructions.innerHTML = `<strong></strong><br>
-                  <ol>
-                    <strong></strong> </li><a href="https://yandex.ru/pogoda/" class="weather-button" target="_blank">ПРОГНОЗ ПОГОДЫ (Переходя по данной ссылке, вы переходите на сайт Прогноза погоды Яндекс. Мы не претендуем на их сайт и не нарушаем права.)</a>
-
-                   </ol>`;
-
-                
+                   
                    
                         
                     } else if (plant === 'fak') {
